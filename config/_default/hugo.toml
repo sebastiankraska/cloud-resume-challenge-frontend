@@ -25,3 +25,8 @@ summaryLength = 0
 [services]
   [services.x]
     disableInlineCSS = true
+
+ [taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
