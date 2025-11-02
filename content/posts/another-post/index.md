@@ -5,7 +5,7 @@ description = "A comprehensive example of all available frontmatter parameters f
 date = 2025-10-30T12:00:00Z
 lastmod = 2025-10-30T14:30:00Z
 draft = false
-weight = 10
+# weight = 10
 
 # Image Configuration
 feature = "*feature*"

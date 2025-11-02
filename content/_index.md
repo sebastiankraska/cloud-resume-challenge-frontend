@@ -1,2 +1,2 @@
-# Hi!
-There will be some intro text later. 
+# Cloud Blog Challenge
+The Cloud Resume Challenge is great. But I do not like putting my resume online. And I to need a blog. 
