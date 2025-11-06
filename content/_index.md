@@ -1,2 +1,2 @@
 # Cloud Blog Challenge
-The Cloud Resume Challenge is great. But I do not like putting my resume online. And I to need a blog.
+The Cloud Resume Challenge is great. But I do not like putting my resume online. And I need a blog anyway, so...
