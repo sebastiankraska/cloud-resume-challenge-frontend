@@ -86,3 +86,32 @@ fingerprintAlgorithm = "sha256"
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+# from https://github.com/privatemaker/headless-cms
+[headless_cms]
+  engine = "sveltia"  # or "decap" for more stability
+  site_url = "https://sebastiankraska.com/"
+  [headless_cms.backend]
+    name = "github"
+    repo = "your-username/your-repo"
+  [[headless_cms.collections]]
+    name = "posts"
+    label = "Blog Posts"
+    folder = "content/posts"
+    create = true
+    fields = [
+      { label = "Title", name = "title", widget = "string", required = true },
+      { label = "Date", name = "date", widget = "datetime", required = true },
+      { label = "Description", name = "description", widget = "text", hint = "Brief summary for SEO and previews" },
+      { label = "Draft", name = "draft", widget = "boolean", default = true, hint = "Set to false to publish" },
+      { label = "Body", name = "body", widget = "markdown", required = true },
+      { label = "Tags", name = "tags", widget = "list", required = false, hint = "Add relevant tags" },
+      { label = "Categories", name = "categories", widget = "list", required = false },
+      { label = "Series", name = "series", widget = "list", required = false, hint = "Group related posts together" },
+      { label = "Author", name = "author", widget = "string", required = false },
+      { label = "Featured Image", name = "feature", widget = "image", required = false, hint = "Main article image" },
+      { label = "Last Modified", name = "lastmod", widget = "datetime", required = false },
+      { label = "Show Table of Contents", name = "showTableOfContents", widget = "boolean", default = false },
+      { label = "Show Reading Time", name = "showReadingTime", widget = "boolean", default = false },
+      { label = "Show Word Count", name = "showWordCount", widget = "boolean", default = false },
+    ]

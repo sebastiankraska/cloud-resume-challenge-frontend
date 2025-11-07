@@ -12,7 +12,8 @@ summaryLength = 0
   pagerSize = 10
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  # home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "HeadlessCMSConfig"]
 
 [privacy]
   [privacy.vimeo]
@@ -30,3 +31,4 @@ summaryLength = 0
   category = "categories"
   tag = "tags"
   series = "series"
+
