@@ -101,7 +101,7 @@ fingerprintAlgorithm = "sha256"
     create = true
     fields = [
       { label = "Title", name = "title", widget = "string", required = true },
-      { label = "Date", name = "date", widget = "datetime", required = true },
+      { label = "Date", name = "date", widget = "datetime", format = "YYYY-MM-DDTHH:mm:ssZZ", required = true },
       { label = "Description", name = "description", widget = "text", hint = "Brief summary for SEO and previews" },
       { label = "Draft", name = "draft", widget = "boolean", default = true, hint = "Set to false to publish" },
       { label = "Body", name = "body", widget = "markdown", required = true },
@@ -110,7 +110,7 @@ fingerprintAlgorithm = "sha256"
       { label = "Series", name = "series", widget = "list", required = false, hint = "Group related posts together" },
       { label = "Author", name = "author", widget = "string", required = false },
       { label = "Featured Image", name = "feature", widget = "image", required = false, hint = "Main article image" },
-      { label = "Last Modified", name = "lastmod", widget = "datetime", required = false },
+      { label = "Last Modified", name = "lastmod", widget = "datetime", format = "YYYY-MM-DDTHH:mm:ssZZ", required = false },
       { label = "Show Table of Contents", name = "showTableOfContents", widget = "boolean", default = false },
       { label = "Show Reading Time", name = "showReadingTime", widget = "boolean", default = false },
       { label = "Show Word Count", name = "showWordCount", widget = "boolean", default = false },
