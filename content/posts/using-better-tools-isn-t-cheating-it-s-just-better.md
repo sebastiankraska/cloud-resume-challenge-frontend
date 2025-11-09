@@ -19,7 +19,7 @@ showWordCount: false
 ---
 ## The old way wasn't that pure either
 
-Imagine a senior developer today. He started ten years ago as a junior developer by watching YouTube tutorials and copy-and-pasted code from Stack Overflow. Now, he is a senior developer, so \*obviously\* his process works.
+Imagine a senior developer today. He started ten years ago as a junior developer by watching YouTube tutorials and copy-and-pasted code from Stack Overflow. Now, he is a senior developer, so _obviously_ his process works.
 
 Here's where people get trapped: they compare their _process_ to what they imagine the senior developer's process was.
 
