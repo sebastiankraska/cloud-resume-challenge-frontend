@@ -62,7 +62,7 @@ Building shows up in your Github or your blog. Shift from consuming to producing
 ## Valuable skills in the age of AI:
 
 - **Clear thinking.** Writing helps with this. So does coding. Same thing really—being logical, structured, understandable to others.
-- \*\*Good taste.\*\* Knowing when something is ugly and complicated. Trusting your instinct enough to push back on AI output.
+- **Good taste.** Knowing when something is ugly and complicated. Trusting your instinct enough to push back on AI output.
 - **Knowing what actually matters and what's noise.** Not falling into every rabbit hole just to avoid the real work.
 
 ## The point
