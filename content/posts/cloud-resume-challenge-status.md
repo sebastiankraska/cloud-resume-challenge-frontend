@@ -1,6 +1,6 @@
 ---
 title: Cloud Blog Challenge - What's done, what's not
-date: 2025-11-09T16:51:00+0100
+date: 2025-11-10T16:51:00+0100
 description: Two tables. What's done, what's not.
 draft: false
 tags:
@@ -34,7 +34,7 @@ The Cloud Resume Challenge has [16 steps](https://cloudresumechallenge.dev/docs/
 | 8 | Database | ✅ Done | DynamoDB, on-demand billing |
 | 9 | API | ✅ Done | HTTP API, CORS locked |
 | 10 | Python | ✅ Done | 32 lines, boto3 |
-| 11 | Tests | ❌ Missing | Manual testing only |
+| 11 | Tests | ✅ Done | Testing with "pytest" and "requests" |
 | 12 | IaC | ✅ Done | Terraform (not SAM) |
 | 13 | Source Control | ✅ Done | Two repos (frontend/backend) |
 | 14 | CI/CD (Backend) | ❌ Missing | Manual terraform apply |
@@ -66,11 +66,11 @@ The Cloud Resume Challenge has [16 steps](https://cloudresumechallenge.dev/docs/
 
 Infrastructure works. `terraform plan` shows no drift. Counter increments. HTTPS resolves.
 
-CI/CD doesn't exist. Every deployment happens manual and locally.
+CI/CD doesn't exist. Every deployment happens manual and locally. (I set up OIDC today, working on it ...)
 
-Tests don't exist. "It works on my machine" is the test suite.
+Tests exist. Playwright/Cypress are overkill from my POV. I just used "requests" and "pytest". 
 
-Burn-down is unproven. I have not tested `terraform destroy` → `terraform apply`.
+Burn-down is unproven. I have not tested `terraform destroy` → `terraform apply`. (I somewhat tested it during the switch from a subdomain to the main domain. I am pretty sure I will experience again how disabling and trying to delete Clound Distribution takes so long that Terraform will timeout - I will find out soon)
 
 ## Why I Deviated
 
@@ -89,7 +89,6 @@ Hugo is production tooling. I know HTML, CSS and JS from other projects.
 ## What's Next
 
 1. GitHub Actions CI/CD
-2. Lambda Unit Tests
 3. Burn-down test
 4. Terraform comments
 6. Frontend CI/CD
