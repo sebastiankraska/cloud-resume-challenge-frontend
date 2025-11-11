@@ -37,11 +37,11 @@ The Cloud Resume Challenge has [16 steps](https://cloudresumechallenge.dev/docs/
 | 11 | Tests | ✅ Done | Testing with "pytest" and "requests" |
 | 12 | IaC | ✅ Done | Terraform (not SAM) |
 | 13 | Source Control | ✅ Done | Two repos (frontend/backend) |
-| 14 | CI/CD (Backend) | ❌ Missing | Manual terraform apply |
+| 14 | CI/CD (Backend) | ✅ Done  | Terraform via Github Actions (OIDC) |
 | 15 | CI/CD (Frontend) | ❌ Missing | Manual aws s3 sync |
 | 16 | Blog Post | 🟡 In Progress | Publishing now |
 
-**Score: 11/16 complete**
+**Score: 13/16 complete**
 
 ## Terraform Extension (12 Steps)
 
@@ -66,7 +66,7 @@ The Cloud Resume Challenge has [16 steps](https://cloudresumechallenge.dev/docs/
 
 Infrastructure works. `terraform plan` shows no drift. Counter increments. HTTPS resolves.
 
-CI/CD doesn't exist. Every deployment happens manual and locally. (I set up OIDC today, working on it ...)
+CI/CD for backend exist. Every push to main lets Github "terraform" AWS. Github and AWS communicate via OpenID Connect (OIDC). The IAM Role that Github assumes uses least privilege permissions (though I have to say: it does need quite a few permissions)
 
 Tests exist. Playwright/Cypress are overkill from my POV. I just used "requests" and "pytest". 
 
@@ -88,11 +88,10 @@ Hugo is production tooling. I know HTML, CSS and JS from other projects.
 
 ## What's Next
 
-1. GitHub Actions CI/CD
-3. Burn-down test
-4. Terraform comments
-6. Frontend CI/CD
-7. Finish posts
+1. Frontend CI/CD
+2. Burn-down test
+3. Terraform comments
+4. Finish posts
 
 optional:
 
