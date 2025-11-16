@@ -38,7 +38,7 @@ The Cloud Resume Challenge has [16 steps](https://cloudresumechallenge.dev/docs/
 | 12 | IaC | ✅ Done | Terraform (not SAM) |
 | 13 | Source Control | ✅ Done | Two repos (frontend/backend) |
 | 14 | CI/CD (Backend) | ✅ Done  | Terraform via Github Actions (OIDC) |
-| 15 | CI/CD (Frontend) | ❌ Missing | Manual aws s3 sync |
+| 15 | CI/CD (Frontend) | ✅ Done | S3 sync and invalidate Cloudfront Cache via Github Actions (OIDC) |
 | 16 | Blog Post | 🟡 In Progress | Publishing now |
 
 **Score: 13/16 complete**
