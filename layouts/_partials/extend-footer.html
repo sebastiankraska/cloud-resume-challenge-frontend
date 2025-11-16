@@ -15,12 +15,18 @@
       return response.json();
     })
     .then(data => {
-      document.getElementById('visit-count').textContent = 
-        `Visits: ${data.visits || 'Unknown'}`;
+      // Update ALL elements with class "visitor-count"
+      const counters = document.querySelectorAll('.visitor-count');
+      counters.forEach(counter => {
+        counter.textContent = `Visits: ${data.visits || 'Unknown'}`;
+      });
     })
     .catch(error => {
       console.error('Error fetching visitor count:', error);
-      document.getElementById('visitor-count').textContent = 
-        'Visits counter unavailable';
+      // Update all counters to show error message
+      const counters = document.querySelectorAll('.visitor-count');
+      counters.forEach(counter => {
+        counter.textContent = 'Visits counter unavailable';
+      });
     });
 </script>

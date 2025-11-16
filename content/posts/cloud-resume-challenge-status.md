@@ -18,6 +18,10 @@ showTableOfContents: true
 showReadingTime: true
 showWordCount: true
 ---
+
+Current site visits: <span class="visitor-count">Loading...</span>
+
+
 The Cloud Resume Challenge has [16 steps](https://cloudresumechallenge.dev/docs/the-challenge/aws/). The Terraform extension [adds 12 more](https://cloudresumechallenge.dev/docs/extensions/terraform-getting-started/). Below is where I actually stand.
 
 ## Original Challenge (16 Steps)
