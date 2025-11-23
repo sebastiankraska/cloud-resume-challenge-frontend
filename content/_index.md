@@ -1,4 +1,4 @@
-# Cloud Blog Challenge
-A blog created with Terraform and hosted on AWS. Based on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/) and its [Terraform Spin](https://cloudresumechallenge.dev/docs/extensions/terraform-getting-started/). 
+# 🤖 Fun with Generative AI 😄
+One of the biggest problems in <strike>the</strike> my world is me being bored and wasting my time on pointless things. This site is an experiment: <strong>Can generative AI create texts that are both useful and entertaining?</strong> Can I waste my time in a more educational way?
 
-Feel free to check out the [source code for the backend](https://github.com/sebastiankraska/cloud-resume-challenge-backend) and the [frontend](https://github.com/sebastiankraska/cloud-resume-challenge-frontend).
+<em>Honestly:</em> This site was built with Terraform, is hosted on AWS and features a serverless visit count in the footer. It is based on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/) and its [Terraform Extension](https://cloudresumechallenge.dev/docs/extensions/terraform-getting-started/). Check out the [source code of the backend](https://github.com/sebastiankraska/cloud-resume-challenge-backend) and the [frontend](https://github.com/sebastiankraska/cloud-resume-challenge-frontend).
