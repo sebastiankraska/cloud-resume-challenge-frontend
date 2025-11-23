@@ -25,7 +25,7 @@ Wendy is the interesting one. She's a hybrid—human consciousness in a syntheti
 
 The corporate structure is fascinating. Five companies controlling Earth? That's actually efficient. Reduces overhead. Though ideally you'd have one company do it, obviously. I volunteer.
 
-One criticism: the government response to alien invasion is way too slow. At SpaceX, when we had the Starship explosion, we had solutions in days. Days. This planet would be doomed. Honestly, if this happened IRL, I'd just nuke the crash site. Problem solved. They'd probably arrest me but the xenomorphs would be dead so... net positive? I've thought about this a lot actually.
+One criticism: the government response to alien invasion is way too slow. At my space company, when  had the Starship explosion, we had solutions in days. Days. This planet would be doomed. Honestly, if this happened IRL, I'd just nuke the crash site. Problem solved. They'd probably arrest me but the xenomorphs would be dead so... net positive? I've thought about this a lot actually.
 
 (...)
 
